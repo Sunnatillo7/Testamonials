@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/rubik-v21-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/rubik-v21-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* rubik-500 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/rubik-v21-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/rubik-v21-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    font-family: 'Rubik' sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 370px 370px;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.mellisa>h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    margin-top: 25px;
+    margin-bottom: 8px;
+
+
+    /* Text */
+
+    color: #363940;
+
+
+}
+
+.santiago>h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+
+    color: #363940;
+
+
+}
+
+.param {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Neutral 4 */
+
+    color: #95A1BB;
+    margin-bottom: 10px;
+}
+
+.checked {
+    color: #6E38F7;
+}
+
+.param1 {
+    margin-top: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+
+    /* Text */
+
+    color: #363940;
+
+
+}
+
+.margin {
+    margin-top: 150px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    justify-content: center;
+    gap: 45px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.first {
+    margin-top: 150px;
+}
+
+img {
+    display: block;
+}
+
+.red {
+    margin-bottom: 15px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    margin-left: 20px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.second {
+    margin-top: 150px;
+}
+
+.per1 {
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+
+    /* Text */
+
+    color: #363940;
+
+}
+
+strong {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+
+    /* Text */
+
+    color: #363940;
+
+
+}
+
+.third {
+    margin-top: 150px;
+}
+
+.partners {
+    display: grid;
+    margin-bottom: 55px;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+}
+
+.param5 {
+    width: 600px;
+    margin: 0 auto;
+    /* Paragraph */
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    text-align: center;
+
+    /* Neutral 4 */
+
+    color: #95A1BB;
+
+}
+
+.btn {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.btn>button {
+    background: #6E38F7;
+    border-radius: 4px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    padding: 13px 20px;
+    border: none;
+
+}
+
+.fifth{
+    margin-top: 150px;
+}
+.grid6{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+}
